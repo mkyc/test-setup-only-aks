@@ -1,0 +1,18 @@
+kind: state
+azbi:
+  status: applied
+  size: 0
+  use_public_ip: false
+  location: "germanywestcentral"
+  name: "aks_only_tests"
+  address_space:
+    - "10.0.0.0/16"
+  address_prefixes:
+    - "10.0.1.0/24"
+  rsa_pub_path: "/shared/vms_rsa.pub"
+  output:
+    private_ips.value: []
+    public_ips.value: []
+    rg_name.value: aks_only_tests-rg
+    vm_names.value: []
+    vnet_name.value: aks_only_tests-vnet
