@@ -1,3 +1,13 @@
 /.idea/
-/shared/azbi/terraform.tfstate
+/shared/vms_rsa
+/shared/vms_rsa.pub
+
 /shared/azbi/terraform-apply.tfplan
+/shared/azbi/terraform.tfstate
+/shared/azbi/terraform.tfstate.backup
+/shared/azbi/terraform-destroy.tfplan
+
+/shared/azks/terraform-apply.tfplan
+/shared/azks/terraform.tfstate
+/shared/azks/terraform.tfstate.backup
+/shared/azks/terraform-destroy.tfplan
